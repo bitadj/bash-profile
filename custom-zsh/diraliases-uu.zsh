@@ -1,0 +1,6 @@
+alias app="cd ~/src/app-client"
+alias back="cd ~/src/back-office-app"
+alias client="cd ~/src/uniteus-client"
+alias src="cd ~/src/"
+alias ui="cd ~/src/uniteus-ui"
+alias utils="cd ~/src/uniteus-client-utils"
