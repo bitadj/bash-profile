@@ -2,12 +2,10 @@
 {
     "editor.tabSize": 2,
     "editor.detectIndentation": false,
-    "editor.fontFamily": "Fira Code",
+    "editor.fontFamily": "bitadj code",
     "editor.fontSize": 14,
     "editor.fontLigatures": true,
     "editor.wordWrap": true,
-    "editor.renderWhitespace": "boundary",
-    "view-in-browser.customBrowser": "chrome",
     "window.zoomLevel": 0,
     "workbench.editor.showTabs": true,
     "explorer.openEditors.visible": 0,
@@ -25,7 +23,6 @@
     "editor.quickSuggestions": true,
     "editor.snippetSuggestions": "top",
     "workbench.welcome.enabled": false,
-    "workbench.iconTheme": "vscode-simpler-icons",
     "beautify.language": {
       "js": {
         "type": [
@@ -47,5 +44,58 @@
         "html"
       ]
     },
-    "files.trimTrailingWhitespace": true
-  }
+    "editor.minimap.enabled": false,
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
+    },
+    "workbench.iconTheme": "vscode-icons",
+    "editor.tokenColorCustomizations": {
+      "textMateRules": [
+        // {
+        //   "scope": [
+        //     "string.quoted.single.js.jsx",
+        //     "string.quoted.single.js",
+        //     "string.quoted.double.js.jsx",
+        //   ],
+        //   "settings": {
+        //     "foreground": "#adac57",
+        //   }
+        // },
+        {
+          "scope": [
+              "variable.language.js",
+              "variable.language.jsx",
+          ],
+          "settings": {
+              "foreground": "#bf616a",
+          }
+        },
+        {
+          "scope": [
+              "variable.language.this.js.jsx",
+
+          ],
+          "settings": {
+            "fontStyle": "italic",
+            "foreground": "#f593f8",
+          }
+        },
+        {
+          "scope": [
+              "comment",
+          ],
+          "settings": {
+            "fontStyle": "italic",
+          }
+        },
+        {
+          "scope": [
+              "keyword.operator",
+              "storage.type",
+          ],
+          "settings": {
+            "fontStyle": "bold",
+          }
+        },
+      ]
+    },
