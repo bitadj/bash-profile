@@ -3,7 +3,7 @@
 # https://github.com/robbyrussell/oh-my-zsh/wiki/Plugin:git
 
 alias ga='git add .'
-alias gc
+alias gc='gcmsg'
 alias go='gco '
 alias gs='git status -s'
 alias gom='gcm'
