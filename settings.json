@@ -1,102 +1,102 @@
-// Place your settings in this file to overwrite the default settings
 {
-    "editor.tabSize": 2,
-    "editor.detectIndentation": false,
-    "editor.fontFamily": "bitadj code",
-    "editor.fontSize": 14,
-    "editor.fontLigatures": true,
-    "editor.wordWrap": true,
-    "window.zoomLevel": 0,
-    "workbench.editor.showTabs": true,
-    "explorer.openEditors.visible": 0,
-    "editor.cursorStyle": "line",
-    "window.reopenFolders": "none",
-    "eslint.enable": false,
-    "workbench.activityBar.visible": true,
-    "workbench.statusBar.visible": true,
-    "files.associations": {
-      ".sequelizerc": "javascript",
-      "sequelizerc": "javascript"
-    },
-    "editor.selectionHighlight": false,
-    "editor.renderLineHighlight": "none",
-    "editor.quickSuggestions": true,
-    "editor.snippetSuggestions": "top",
-    "workbench.welcome.enabled": false,
-    "beautify.language": {
-      "js": {
-        "type": [
-          "javascript",
-          "json",
-          "javascriptreact"
-        ],
-        "filename": [
-          ".jshintrc",
-          ".jsbeautify"
-        ]
-      },
-      "css": [
-        "css",
-        "scss"
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "editor.fontFamily": "bitadj code",
+  "editor.fontSize": 12,
+  "editor.fontLigatures": true,
+  "editor.wordWrap": "off",
+  "window.zoomLevel": 0,
+  "workbench.editor.showTabs": true,
+  "explorer.openEditors.visible": 0,
+  "editor.cursorStyle": "line",
+  "eslint.enable": false,
+  "workbench.activityBar.visible": true,
+  "workbench.statusBar.visible": true,
+  "files.associations": {
+    ".sequelizerc": "javascript",
+    "sequelizerc": "javascript"
+  },
+  "editor.selectionHighlight": false,
+  "editor.renderLineHighlight": "none",
+  "editor.quickSuggestions": true,
+  "editor.snippetSuggestions": "top",
+  "beautify.language": {
+    "js": {
+      "type": [
+        "javascript",
+        "json",
+        "javascriptreact"
       ],
-      "html": [
-        "htm",
-        "html"
+      "filename": [
+        ".jshintrc",
+        ".jsbeautify"
       ]
     },
-    "editor.minimap.enabled": false,
-    "gitlens.advanced.messages": {
-        "suppressShowKeyBindingsNotice": true
-    },
-    "workbench.iconTheme": "vscode-icons",
-    "editor.tokenColorCustomizations": {
-      "textMateRules": [
-        // {
-        //   "scope": [
-        //     "string.quoted.single.js.jsx",
-        //     "string.quoted.single.js",
-        //     "string.quoted.double.js.jsx",
-        //   ],
-        //   "settings": {
-        //     "foreground": "#adac57",
-        //   }
-        // },
-        {
-          "scope": [
-              "variable.language.js",
-              "variable.language.jsx",
-          ],
-          "settings": {
-              "foreground": "#bf616a",
-          }
-        },
-        {
-          "scope": [
-              "variable.language.this.js.jsx",
+    "css": [
+      "css",
+      "scss"
+    ],
+    "html": [
+      "htm",
+      "html"
+    ]
+  },
+  "editor.minimap.enabled": false,
+  "gitlens.advanced.messages": {
+      "suppressShowKeyBindingsNotice": true
+  },
+  "workbench.iconTheme": "vscode-icons",
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      // {
+      //   "scope": [
+      //     "string.quoted.single.js.jsx",
+      //     "string.quoted.single.js",
+      //     "string.quoted.double.js.jsx",
+      //   ],
+      //   "settings": {
+      //     "foreground": "#adac57",
+      //   }
+      // },
+      {
+        "scope": [
+            "variable.language.js",
+            "variable.language.jsx",
+        ],
+        "settings": {
+            "foreground": "#bf616a",
+        }
+      },
+      {
+        "scope": [
+            "variable.language.this.js.jsx",
 
-          ],
-          "settings": {
-            "fontStyle": "italic",
-            "foreground": "#f593f8",
-          }
-        },
-        {
-          "scope": [
-              "comment",
-          ],
-          "settings": {
-            "fontStyle": "italic",
-          }
-        },
-        {
-          "scope": [
-              "keyword.operator",
-              "storage.type",
-          ],
-          "settings": {
-            "fontStyle": "bold",
-          }
-        },
-      ]
-    },
-  }
+        ],
+        "settings": {
+          "fontStyle": "italic",
+          "foreground": "#f593f8",
+        }
+      },
+      {
+        "scope": [
+            "comment",
+        ],
+        "settings": {
+          "fontStyle": "italic",
+        }
+      },
+      {
+        "scope": [
+            "keyword.operator",
+            "storage.type",
+        ],
+        "settings": {
+          "fontStyle": "bold",
+        }
+      },
+    ]
+  },
+  "terminal.external.osxExec": "iTerm2.app",
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.fontFamily": "Monaco",
+}
