@@ -12,7 +12,7 @@ alias nanodir='nano $ZSH_CUSTOM/diraliases.zsh'
 alias sourcebash='source $ZSH/oh-my-zsh.sh'
 
 alias zshconfig="code ~/.zshrc"
-alias ohmyzsh="code ~/.oh-my-zsh"
+alias ohmyzsh="code $ZSH_CUSTOM"
 
 # alias-ception
 alias nb='nanobash'
