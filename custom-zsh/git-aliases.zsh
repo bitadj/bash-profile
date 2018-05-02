@@ -4,6 +4,7 @@
 
 alias ga='git add .'
 alias gc='gcmsg'
+alias gh='git open'
 alias go='gco '
 alias gs='git status -s'
 alias gom='gcm'

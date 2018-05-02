@@ -1,18 +1,15 @@
 
 # Unix aliases
-alias ..='cd ..'
-alias ...='cd ../..'
 alias cl='clear'
 alias ll='ls -a'
 
 # .zsh
-alias nanobash='nano ~/.zshrc'
-alias nanoalias='nano $ZSH_CUSTOM/aliases-zsh.zsh'
-alias nanodir='nano $ZSH_CUSTOM/diraliases.zsh'
+alias nanobash='code ~/.zshrc'
+alias nanoalias='code $ZSH_CUSTOM'
+alias nanodir='code $ZSH_CUSTOM'
 alias sourcebash='source $ZSH/oh-my-zsh.sh'
 
-alias zshconfig="code ~/.zshrc"
-alias ohmyzsh="code $ZSH_CUSTOM"
+alias zshrc="code ~/.zshrc"
 
 # alias-ception
 alias nb='nanobash'
@@ -22,7 +19,7 @@ alias sb='sourcebash'
 alias gt='gitalias'
 
 # display aliases
-alias bash='dog ~/.bash_profile'
+alias zshrc='code ~/.zshrc'
 alias al='dog $ZSH_CUSTOM/aliases-zsh.zsh'
 alias diral='dog $ZSH_CUSTOM/diraliases.zsh'
 alias gitalias='dog $ZSH_CUSTOM/git-aliases.zsh'
