@@ -5,7 +5,6 @@ alias src="cd ~/src/"
 alias cs="cd ~/src/codesmith"
 alias ride="cd ~/src/codesmith/reactide/reactide/"
 
-
 # projects
 alias bdj="cd ~/src/bitadj.github.io"
 
