@@ -26,4 +26,4 @@ Thumbs.db
 
 # VS Code #
 .vscode/**
-.history/**
+**.history*

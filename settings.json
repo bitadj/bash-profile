@@ -7,18 +7,17 @@
   "editor.wordWrap": "off",
   "window.zoomLevel": 0,
   "workbench.editor.showTabs": true,
-  "explorer.openEditors.visible": 0,
+  "explorer.openEditors.visible": 10,
   "editor.cursorStyle": "line",
-  "eslint.enable": false,
   "workbench.activityBar.visible": true,
   "workbench.statusBar.visible": true,
   "files.associations": {
     ".sequelizerc": "javascript",
-    "sequelizerc": "javascript"
+    "sequelizerc": "javascript",
+    "*.sample": "javascript"
   },
   "editor.selectionHighlight": false,
   "editor.renderLineHighlight": "none",
-  "editor.quickSuggestions": true,
   "editor.snippetSuggestions": "top",
   "beautify.language": {
     "js": {
@@ -42,9 +41,6 @@
     ]
   },
   "editor.minimap.enabled": false,
-  "gitlens.advanced.messages": {
-      "suppressShowKeyBindingsNotice": true
-  },
   "workbench.iconTheme": "vscode-icons",
   "editor.tokenColorCustomizations": {
     "textMateRules": [
@@ -99,4 +95,49 @@
   "terminal.external.osxExec": "iTerm2.app",
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.fontFamily": "Monaco",
+  "search.location": "sidebar",
+  "editor.wordWrapColumn": 120,
+  "files.trimTrailingWhitespace": true,
+  "editor.renderWhitespace": "boundary",
+  "npm.enableScriptExplorer": true,
+  "gitlens.gitExplorer.files.layout": "tree",
+  "gitlens.codeLens.scopes": [
+    "document",
+  ],
+  "window.title": "${rootName}",
+  "editor.tabCompletion": true,
+  "emmet.triggerExpansionOnTab": true,
+  "local-history.daysLimit": 10,
+  "workbench.statusBar.feedback.visible": false,
+  "gitlens.statusBar.alignment": "right",
+  "gitlens.gitExplorer.view": "history",
+  "gitlens.advanced.messages": {
+    "suppressShowKeyBindingsNotice": true
+  },
+  "gitlens.gitExplorer.enabled": false,
+  "gitlens.historyExplorer.enabled": false,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    ".history": true,
+    "package-lock.json": true,
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/dist/**": true,
+  },
+  "local-history.exclude": [
+    "**/.history/**",
+    "**/.vscode/**",
+    "**/node_modules/**",
+    "**/typings/**",
+    "**/out/**",
+    "**/Code/User/**",
+    "**/dist/**",
+  ],
+  "[json]": {},
 }

@@ -1,4 +1,6 @@
 alias app="cd ~/src/app-client"
+alias auth="cd ~/src/uniteus-auth"
+alias runauth="cd ~/src/uniteus-auth/examples/oauth2-htmljs-example && http-server -p 4444"
 alias back="cd ~/src/back-office-app"
 alias client="cd ~/src/uniteus-client"
 alias src="cd ~/src/"
