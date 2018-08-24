@@ -1,36 +1,5 @@
 {
-  "editor.tabSize": 2,
-  "editor.detectIndentation": false,
-  "editor.fontFamily": "bitadj code",
-  "editor.fontSize": 12,
-  "editor.fontLigatures": true,
-  "editor.wordWrap": "off",
-  "window.zoomLevel": 0,
-  "workbench.editor.showTabs": true,
-  "explorer.openEditors.visible": 10,
-  "editor.cursorStyle": "line",
-  "workbench.activityBar.visible": true,
-  "workbench.statusBar.visible": true,
-  "files.associations": {
-    ".sequelizerc": "javascript",
-    "sequelizerc": "javascript",
-    "*.sample": "javascript"
-  },
-  "editor.selectionHighlight": false,
-  "editor.renderLineHighlight": "none",
-  "editor.snippetSuggestions": "top",
   "beautify.language": {
-    "js": {
-      "type": [
-        "javascript",
-        "json",
-        "javascriptreact"
-      ],
-      "filename": [
-        ".jshintrc",
-        ".jsbeautify"
-      ]
-    },
     "css": [
       "css",
       "scss"
@@ -38,106 +7,108 @@
     "html": [
       "htm",
       "html"
-    ]
+    ],
+    "js": {
+      "filename": [
+        ".jshintrc",
+        ".jsbeautify"
+      ],
+      "type": [
+        "javascript",
+        "json",
+        "javascriptreact"
+      ]
+    }
   },
+  "editor.cursorStyle": "line",
+  "editor.detectIndentation": false,
+  "editor.fontFamily": "bitadj code",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 12,
   "editor.minimap.enabled": false,
-  "workbench.iconTheme": "vscode-icons",
+  "editor.renderLineHighlight": "none",
+  "editor.renderWhitespace": "boundary",
+  "editor.selectionHighlight": false,
+  "editor.snippetSuggestions": "top",
+  "editor.tabCompletion": true,
+  "editor.tabSize": 2,
   "editor.tokenColorCustomizations": {
     "textMateRules": [
-      // {
-      //   "scope": [
-      //     "string.quoted.single.js.jsx",
-      //     "string.quoted.single.js",
-      //     "string.quoted.double.js.jsx",
-      //   ],
-      //   "settings": {
-      //     "foreground": "#adac57",
-      //   }
-      // },
       {
         "scope": [
-            "variable.language.js",
-            "variable.language.jsx",
+          "string.quoted.single.js.jsx",
+          "string.quoted.single.js",
+          "string.quoted.double.js.jsx"
         ],
         "settings": {
-            "foreground": "#bf616a",
+          "foreground": "#9f8ec5"
         }
       },
       {
-        "scope": [
-            "variable.language.this.js.jsx",
-
-        ],
-        "settings": {
-          "fontStyle": "italic",
-          "foreground": "#f593f8",
-        }
+        "scope": ["variable.language.js", "variable.language.jsx"],
+        "settings": { "foreground": "#bf616a" }
       },
       {
-        "scope": [
-            "comment",
-        ],
-        "settings": {
-          "fontStyle": "italic",
-        }
+        "scope": ["variable.language.this.js.jsx"],
+        "settings": { "fontStyle": "italic", "foreground": "#f593f8" }
       },
       {
-        "scope": [
-            "keyword.operator",
-            "storage.type",
-        ],
-        "settings": {
-          "fontStyle": "bold",
-        }
+        "scope": ["comment"],
+        "settings": { "fontStyle": "italic" }
       },
+      {
+        "scope": ["keyword.operator", "storage.type"],
+        "settings": { "fontStyle": "bold" }
+      }
     ]
   },
-  "terminal.external.osxExec": "iTerm2.app",
-  "terminal.integrated.cursorBlinking": true,
-  "terminal.integrated.fontFamily": "Monaco",
-  "search.location": "sidebar",
+  "editor.wordWrap": "off",
   "editor.wordWrapColumn": 120,
-  "files.trimTrailingWhitespace": true,
-  "editor.renderWhitespace": "boundary",
-  "npm.enableScriptExplorer": true,
-  "gitlens.gitExplorer.files.layout": "tree",
-  "gitlens.codeLens.scopes": [
-    "document",
-  ],
-  "window.title": "${rootName}",
-  "editor.tabCompletion": true,
   "emmet.triggerExpansionOnTab": true,
-  "local-history.daysLimit": 10,
-  "workbench.statusBar.feedback.visible": false,
-  "gitlens.statusBar.alignment": "right",
-  "gitlens.gitExplorer.view": "history",
+  "explorer.openEditors.visible": 10,
+  "files.associations": {
+    "*.sample": "javascript",
+    ".sequelizerc": "javascript",
+    "sequelizerc": "javascript"
+  },
+  "files.exclude": {
+    "**/.DS_Store": true,
+    "**/.git": true,
+    "**/.hg": true,
+    "**/.svn": true,
+    "**/CVS": true,
+    ".history": true,
+    "package-lock.json": true
+  },
+  "files.trimTrailingWhitespace": true,
   "gitlens.advanced.messages": {
     "suppressShowKeyBindingsNotice": true
   },
+  "gitlens.codeLens.scopes": [
+    "document"
+  ],
   "gitlens.gitExplorer.enabled": false,
+  "gitlens.gitExplorer.files.layout": "tree",
+  "gitlens.gitExplorer.view": "history",
   "gitlens.historyExplorer.enabled": false,
-  "files.exclude": {
-    "**/.git": true,
-    "**/.svn": true,
-    "**/.hg": true,
-    "**/CVS": true,
-    "**/.DS_Store": true,
-    ".history": true,
-    "package-lock.json": true,
-  },
+  "gitlens.statusBar.alignment": "right",
+  "npm.enableScriptExplorer": true,
   "search.exclude": {
-    "**/node_modules": true,
+    "**/*.min.*": true,
     "**/bower_components": true,
     "**/dist/**": true,
+    "**/node_modules": true,
+    "jsconfig.json": true
   },
-  "local-history.exclude": [
-    "**/.history/**",
-    "**/.vscode/**",
-    "**/node_modules/**",
-    "**/typings/**",
-    "**/out/**",
-    "**/Code/User/**",
-    "**/dist/**",
-  ],
-  "[json]": {},
+  "search.location": "panel",
+  "terminal.external.osxExec": "iTerm2.app",
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.fontFamily": "Monaco",
+  "window.title": "${rootName}",
+  "window.zoomLevel": 0,
+  "workbench.activityBar.visible": true,
+  "workbench.editor.showTabs": true,
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.statusBar.feedback.visible": false,
+  "workbench.statusBar.visible": true
 }

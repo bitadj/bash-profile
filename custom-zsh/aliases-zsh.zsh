@@ -19,10 +19,9 @@ alias sb='sourcebash'
 alias gt='gitalias'
 
 # display aliases
-alias zshrc='code ~/.zshrc'
 alias al='dog $ZSH_CUSTOM/aliases-zsh.zsh'
 alias diral='dog $ZSH_CUSTOM/diraliases.zsh'
-alias gitalias='dog $ZSH_CUSTOM/git-aliases.zsh'
+alias gital='dog $ZSH_CUSTOM/git-aliases.zsh'
 alias uu='dog $ZSH_CUSTOM/diraliases-uu.zsh'
 alias aws='dog $ZSH_CUSTOM/local-alias.zsh'
 

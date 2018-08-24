@@ -16,6 +16,18 @@
 	<string>manual</string>
 	<key>Default Bookmark Guid</key>
 	<string>45231F92-ED11-4523-A2F1-7EF2D71EB2F3</string>
+	<key>GlobalTouchBarMap</key>
+	<dict>
+		<key>touchbar:6F4CF9E8-0AE9-4068-8F7A-20BD56AF280A</key>
+		<dict>
+			<key>Action</key>
+			<integer>28</integer>
+			<key>Label</key>
+			<string>split</string>
+			<key>Text</key>
+			<string>45231F92-ED11-4523-A2F1-7EF2D71EB2F3</string>
+		</dict>
+	</dict>
 	<key>Hotkey</key>
 	<true/>
 	<key>HotkeyChar</key>
@@ -65,12 +77,19 @@
 	</data>
 	<key>NSTableView Supports v2 KeyBingingTable</key>
 	<true/>
+	<key>NSToolbar Configuration com.apple.NSColorPanel</key>
+	<dict>
+		<key>TB Is Shown</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSWindow Frame SUUpdateAlert</key>
+	<string>650 498 620 392 0 0 1920 1057 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>1959 326 796 473 1920 30 1680 1027 </string>
+	<string>245 554 796 473 0 0 1920 1057 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>376 334 570 452 0 0 1920 1057 </string>
+	<string>0 77 1680 980 0 0 1920 1057 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>2518 385 570 452 1920 30 1680 1027 </string>
+	<string>92 354 1382 673 0 0 1680 1027 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -645,6 +664,8 @@
 			<string></string>
 			<key>Silence Bell</key>
 			<false/>
+			<key>Space</key>
+			<integer>0</integer>
 			<key>Sync Title</key>
 			<false/>
 			<key>Tags</key>
@@ -656,7 +677,7 @@
 			<key>Unicode Version</key>
 			<integer>8</integer>
 			<key>Unlimited Scrollback</key>
-			<false/>
+			<true/>
 			<key>Use Bold Font</key>
 			<true/>
 			<key>Use Bright Bold</key>
@@ -737,10 +758,12 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2018-05-22T16:46:20Z</date>
+	<date>2018-08-02T17:22:35Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>ShowBookmarkName</key>
+	<false/>
+	<key>ShowFullScreenTabBar</key>
 	<false/>
 	<key>SplitPaneDimmingAmount</key>
 	<real>0.29340945512820515</real>
