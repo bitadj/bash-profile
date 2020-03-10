@@ -25,6 +25,9 @@ ehthumbs.db
 Thumbs.db
 
 # VS Code #
+.history/**
+.vscode
 .vscode/**
-**.history*
+bdj.md
+copy-to-emr.sh
 jsconfig.json

@@ -1,8 +1,17 @@
-alias app="cd ~/src/app-client"
-alias auth="cd ~/src/uniteus-auth"
-alias runauth="cd ~/src/uniteus-auth/examples/oauth2-htmljs-example && http-server -p 4444"
-alias back="cd ~/src/back-office-app"
-alias client="cd ~/src/uniteus-client"
-alias src="cd ~/src/"
-alias ui="cd ~/src/uniteus-ui"
-alias utils="cd ~/src/uniteus-client-utils"
+
+# directory shortcut aliases for unite us
+alias src='cd ~/src/'
+
+# monorepo
+alias fe='cd ~/src/front-end'
+alias app='cd ~/src/front-end/packages/app-client'
+alias ui='cd ~/src/front-end/packages/uniteus-ui'
+alias utils='cd ~/src/front-end/packages/uniteus-client-utils'
+
+# unite us
+alias back='cd ~/src/back-office-app'
+alias auth='cd ~/src/uniteus-auth'
+alias browse='cd ~/src/uniteus-browse'
+alias client='cd ~/src/uniteus-client'
+alias emr='cd ~/src/uniteus-emr'
+alias shares='cd ~/src/uniteus-shares'

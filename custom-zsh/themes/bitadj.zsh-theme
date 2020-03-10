@@ -1,6 +1,6 @@
 PROMPT='
-%{$reset_color%}%{$fg[cyan]%}%c%{$reset_color%} %1{$emoji[mouse_face]%}%{$reset_color%}  '
-RPROMPT='%{$fg[magenta]%}$(git_prompt_info)%{$reset_color%}% '
+%{$reset_color%}%{$fg[cyan]%}%c%{$reset_color%} %1{$emoji[sparkles]%}%{$reset_color%}  '
+RPROMPT='%{$fg[magenta]%}$(git_prompt_info)%{$reset_color%}%'
 
 ZSH_THEME_GIT_PROMPT_PREFIX="["
 ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%}"
